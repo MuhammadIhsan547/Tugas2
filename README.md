@@ -139,6 +139,10 @@ private void setupDocumentListener() {
     });
 }
 ```
+## Contoh Gambar Project Setelah di Run
+![Tugas2](https://github.com/user-attachments/assets/4dec0e5c-358f-4a05-a2f2-500adb6a3647)
+
+
 
 ---
 
