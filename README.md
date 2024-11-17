@@ -1,8 +1,5 @@
-# AplikasiCekNomorGenapGanjil
- Tugas2 - Muhammad Ihsan - 2210010286
-Berikut adalah file README yang bisa langsung Anda salin dan gunakan:
 
----
+ Tugas2 - Muhammad Ihsan - 2210010286
 
 # Aplikasi Konversi Suhu
 
@@ -127,17 +124,17 @@ private void setupDocumentListener() {
     InputanSuhu.getDocument().addDocumentListener(new javax.swing.event.DocumentListener() {
         @Override
         public void insertUpdate(javax.swing.event.DocumentEvent e) {
-            TombolHitungActionPerformed(null);
+            TombolHitungActionPerformed(null); // Memanggil konversi saat input berubah
         }
 
         @Override
         public void removeUpdate(javax.swing.event.DocumentEvent e) {
-            TombolHitungActionPerformed(null);
+            TombolHitungActionPerformed(null); // Memanggil konversi saat input berubah
         }
 
         @Override
         public void changedUpdate(javax.swing.event.DocumentEvent e) {
-            TombolHitungActionPerformed(null);
+            TombolHitungActionPerformed(null); // Memanggil konversi saat input berubah
         }
     });
 }
@@ -147,17 +144,9 @@ private void setupDocumentListener() {
 
 ### Pembuat
 **Nama Pembuat:** Muhammad Ihsan  
-**NPM:** 2210010286 
-
-**Kelas:** 5A Ti Reg Pagi BJM
+**NPM:** 2210010286  
+**Kelas:** 5A Ti Reg Pagi BJM  
 
 ---
 
-Silakan sesuaikan nama dan tanggal pembuatan sesuai dengan kebutuhan Anda.
-        @Override
-        public void changedUpdate(javax.swing.event.DocumentEvent e) {
-            TombolHitungActionPerformed(null);
-        }
-    });
-}
-```
+
