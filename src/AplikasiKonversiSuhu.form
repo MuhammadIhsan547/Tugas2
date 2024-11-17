@@ -87,8 +87,8 @@
                               <Group type="102" attributes="0">
                                   <Component id="jRadioButtonFahrenheit" min="-2" max="-2" attributes="0"/>
                                   <EmptySpace pref="86" max="32767" attributes="0"/>
-                                  <Component id="ComboBoxKonversi" min="-2" pref="103" max="-2" attributes="0"/>
-                                  <EmptySpace min="-2" pref="83" max="-2" attributes="0"/>
+                                  <Component id="ComboBoxKonversi" min="-2" pref="142" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="44" max="-2" attributes="0"/>
                               </Group>
                           </Group>
                       </Group>
@@ -247,6 +247,9 @@
         </Component>
         <Component class="javax.swing.JButton" name="TombolHitung">
           <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="cc" green="ff" red="cc" type="rgb"/>
+            </Property>
             <Property name="text" type="java.lang.String" value="Hitung"/>
           </Properties>
           <Events>
@@ -255,6 +258,9 @@
         </Component>
         <Component class="javax.swing.JButton" name="TombolKeluar">
           <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="33" green="33" red="ff" type="rgb"/>
+            </Property>
             <Property name="text" type="java.lang.String" value="Keluar"/>
           </Properties>
           <Events>
@@ -263,6 +269,9 @@
         </Component>
         <Component class="javax.swing.JButton" name="TombolHapus">
           <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="cc" green="ff" red="cc" type="rgb"/>
+            </Property>
             <Property name="text" type="java.lang.String" value="Hapus"/>
           </Properties>
           <Events>

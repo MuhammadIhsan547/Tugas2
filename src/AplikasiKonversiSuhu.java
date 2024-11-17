@@ -191,6 +191,7 @@ private double reamurToKelvin(double reamur) {
             }
         });
 
+        TombolHitung.setBackground(new java.awt.Color(204, 255, 204));
         TombolHitung.setText("Hitung");
         TombolHitung.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -198,6 +199,7 @@ private double reamurToKelvin(double reamur) {
             }
         });
 
+        TombolKeluar.setBackground(new java.awt.Color(255, 51, 51));
         TombolKeluar.setText("Keluar");
         TombolKeluar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -205,6 +207,7 @@ private double reamurToKelvin(double reamur) {
             }
         });
 
+        TombolHapus.setBackground(new java.awt.Color(204, 255, 204));
         TombolHapus.setText("Hapus");
         TombolHapus.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -242,8 +245,8 @@ private double reamurToKelvin(double reamur) {
                             .addGroup(jPanel1Layout.createSequentialGroup()
                                 .addComponent(jRadioButtonFahrenheit)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 86, Short.MAX_VALUE)
-                                .addComponent(ComboBoxKonversi, javax.swing.GroupLayout.PREFERRED_SIZE, 103, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(83, 83, 83))))
+                                .addComponent(ComboBoxKonversi, javax.swing.GroupLayout.PREFERRED_SIZE, 142, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addGap(44, 44, 44))))
                     .addGroup(jPanel1Layout.createSequentialGroup()
                         .addComponent(jLabel3)
                         .addGap(71, 71, 71)
